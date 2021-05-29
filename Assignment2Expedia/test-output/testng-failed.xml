@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Adhoc]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Assignment2(failed)">
+    <classes>
+      <class name="Com.CumberLeacture.Assignment2Expedia.RunnerExpedia">
+        <methods>
+          <include name="Ex008"/>
+          <include name="beforeClass"/>
+          <include name="beforeMethod"/>
+          <include name="afterClass"/>
+          <include name="Ex006"/>
+          <include name="EX009"/>
+          <include name="Ex010"/>
+          <include name="Ex007"/>
+          <include name="afterMethod"/>
+        </methods>
+      </class> <!-- Com.CumberLeacture.Assignment2Expedia.RunnerExpedia -->
+    </classes>
+  </test> <!-- Assignment2(failed) -->
+</suite> <!-- Failed suite [Adhoc] -->
